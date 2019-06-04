@@ -1,3 +1,40 @@
+// 轮播图
+$(function () {
+    jQuery("#slider-3 .slider").slide({ mainCell: ".bd ul", titCell: ".hd li", trigger: "click", effect: "leftLoop", autoPlay: true, delayTime: 700, interTime: 2500, pnLoop: false, titOnClassName: "active", mouseOverStop: false })
+
+    // 当鼠标移入 展开二级菜单  // 关闭菜单
+    $(document).on("mouseover",".first-item",function() {
+        $(this).children(".rw-lst-header-nav-second").css("display","block")
+    })
+
+    $(document).on("mouseout",".first-item",function() {
+        $(this).children(".rw-lst-header-nav-second").css("display","none")
+    })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 复用
 
