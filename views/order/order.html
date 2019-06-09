@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>账号管理</title>
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../../assets/css/Custom/base.css">
+    <!-- 初始化样式 -->
+    <link rel="stylesheet" href="../../assets/css/Custom/reset.css">
+    <!-- H-ui 插件 -->
+    <link rel="stylesheet" href="../../assets/css/library/H-ui.css">
+    <!-- 外链 css -->
+    <link rel="stylesheet" href="./order.css">
+    <!-- font-al 字体图标库 -->
+    <link rel="stylesheet" href="../../assets/font/font-al.css">
+    <!-- 公共头部 -->
+    <script src="../../public/hade/hade.js"></script>
+</head>
+<body>
+    <!-- 账号管理 -->
+    <div id="order">
+        <div class="container o-rwd-main-content cl">
+            <!-- 左边列表 -->
+            <div class="p-menu f-l">
+                <ul class="pitems">
+                    <li class="pitem">
+                        <div class="items-wrap">
+                            <p class="plab fz14">账号管理</p>
+                            <ul>
+                                <li class="item">
+                                    <a class="atem">收货地址管理</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右边信息 -->
+            <div class="p-voucherhistory f-l">
+                <div class="next-tabs-bar">
+                    <ul class="cl">
+                        <li class="f-l next-tabs-tab-inner tabs-tab-inner t-c-f relative">
+                            收货地址
+                            <span class="sn absolute"></span>
+                        </li>
+                        <li class="f-l next-tabs-tab-inner t-c-f relative">
+                            发货地址
+                            <span class="sn absolute"></span>
+                        </li>
+                        <li class="f-l next-tabs-tab-inner t-c-f relative">
+                            退货地址
+                            <span class="sn absolute"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="next-tabs-content">
+                    <ul class="o-table cl">
+                        <li class="next-table-header-node f-l">
+                            <span>收货人</span>
+                        </li>
+                        <li class="next-table-header-node f-l">
+                            <span>所在地区</span>
+                        </li>
+                        <li class="next-table-header-node f-l">
+                            <span>详细地址</span>
+                        </li>
+                        <li class="next-table-header-node f-l">
+                            <span>电话/手机</span>
+                        </li>
+                        <li class="next-table-header-node f-l">
+                            <span>操作</span>
+                        </li>
+                    </ul>
+                    <div class="mod-batch-bar cl">
+                        <div  class="unit-dropdown f-l">
+                            <input type="checkbox" class="batch-select-all-checkbox">
+                            <i class="iconfont">&#xeb90;</i>
+                        </div>
+                        
+                        <div class="col-batch-delete f-l">
+                            <button>批量删除</button>
+                        </div>
+
+                        <div class="col-batch-delete f-r">
+                            <button>新增收货地址</button>
+                        </div>
+                    </div>
+                    
+                    <div class="tiandi">
+                        <div class="single-address">
+                            <ul class="cl">
+                                <li class="f-l td-checkboxs">
+                                    <input type="checkbox">
+                                </li>
+                                <li class="f-l td-names">
+                                    <span>张三</span>
+                                </li>
+                                <li class="f-l td-areas">
+                                    河南省 鹤壁市 七品去
+                                </li>
+                                <li class="f-l td-streets">
+                                    dawdddddddddd
+                                </li>
+                                <li class="f-l td-postcodes">
+                                    13073710147
+                                </li>
+                                <li class="f-l td-phones">
+                                    默认收货地址
+                                </li>
+                                <li class="f-l td-phones">
+                                    <span>修改 &nbsp;</span>
+                                    <span>删除</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- jquery 插件 -->
+<script src="../../assets/js/jquery.js"></script>
+<!-- 外链js -->
+<script src="./order.js"></script>
+</html>

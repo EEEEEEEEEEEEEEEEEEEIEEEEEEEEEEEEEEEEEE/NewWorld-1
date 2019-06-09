@@ -93,9 +93,7 @@ a {
 
 /* 浮动 */
 
-.cl {
-    overflow: hidden;
-}
+.cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}
 
 .f-l {
     float: left;
@@ -103,4 +101,14 @@ a {
 
 .f-r {
     float: right;
+}
+
+/* 颜色 */
+.c6 {
+    color: #666;
+}
+
+.bc {
+    height: 600px;
+    background: red;
 }

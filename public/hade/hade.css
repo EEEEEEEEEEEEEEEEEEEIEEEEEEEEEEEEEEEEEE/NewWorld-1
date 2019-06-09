@@ -93,16 +93,7 @@
     content: "";
     border-radius: 50% 0px 0px 50%;
 }
-.wrap {
-    margin-top: 1px;
-    border: 1px solid #DCDEE3;
-    width: 257px;
-    height: 39px;
-    border-radius: 0px 0px 3px 3px;
-    background: #fff;
-    line-height: 40px;
-    color: #333;
-}
+
 .num {
     color: #DF2211;
     margin-left: 8px;
